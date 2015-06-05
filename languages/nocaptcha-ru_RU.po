@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: nocaptcha.php:28
+msgid "Authorization"
+msgstr "Авторизация"
+
+#: nocaptcha.php:34
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: nocaptcha.php:40
+msgid "Public Key"
+msgstr "Публичный ключ"
+
+#: nocaptcha.php:47
+msgid "Private Key"
+msgstr "Секретный ключ"
+
+#: nocaptcha.php:54
+msgid "Forms"
+msgstr "Формы"
+
+#: nocaptcha.php:61
+msgid "Use Russian-language widget for languages"
+msgstr "Использовать русскоязычный виджет для языков"
+
+#: nocaptcha.php:68
+msgid "Widget margins"
+msgstr "Отступы виджета"
+
+#: nocaptcha.php:86
+msgid ""
+"<p>Before using Nocaptcha service you should <a href=\"https://nocaptcha."
+"mail.ru/site/add\">register</a> your domain and get the public and private "
+"keys.</p>"
+msgstr ""
+"<p>Перед использованием Некапчи необходимо <a href=\"https://nocaptcha."
+"mail.ru/site/add\">зарегистрировать</a> свой домен и получить публичный "
+"и секретный ключи.</p>"
+
+#: nocaptcha.php:103
+msgid "Use top and bottom margins"
+msgstr "Использовать отступы снизу и сверху в"
+
+#: nocaptcha.php:108
+msgid "Do not use margins"
+msgstr "Не использовать отступы"
+
+#: nocaptcha.php:112
+msgid ""
+"If necessary, you can adjust the margins in the theme stylesheet."
+msgstr ""
+"При необходимости отступы можно настроить внутри стилей темы."
+
+#: nocaptcha.php:121
+msgid "Comment form"
+msgstr "Форма комментирования"
+
+#: nocaptcha.php:124
+msgid "Hide CAPTCHA for logged in users"
+msgstr "Скрывать капчу для авторизованных пользователей"
+
+#: nocaptcha.php:128
+msgid "Login form"
+msgstr "Форма входа"
+
+#: nocaptcha.php:132
+msgid "Registration form"
+msgstr "Форма регистрации"
+
+#: nocaptcha.php:136
+msgid "Lost password form"
+msgstr "Форма восстановления пароля"
+
+#: nocaptcha.php:139
+msgid "How to add Nocaptcha to arbitrary form described below."
+msgstr "Как добавить Некапчу в произвольную форму описано ниже."
+
+#: nocaptcha.php:157
+msgid "Selected languages"
+msgstr "Выбранные языки"
+
+#: nocaptcha.php:158
+msgid "Available languages"
+msgstr "Доступные языки"
+
+#: nocaptcha.php:162
+msgid "English-language widget will be used for the rest of languages."
+msgstr "Для всех остальных языков будет использоваться англоязычный виджет."
+
+#: nocaptcha.php:169 nocaptcha.php:180
+msgid "Nocaptcha Mail.Ru Settings"
+msgstr "Настройки Некапчи Mail.Ru"
+
+#: nocaptcha.php:170
+msgid "Nocaptcha Mail.Ru"
+msgstr "Некапча Mail.Ru"
+
+#: nocaptcha.php:186
+msgid "How to add Nocaptcha to arbitrary form"
+msgstr "Как добавить Некапчу в произвольную форму"
+
+#: nocaptcha.php:187
+msgid "Description"
+msgstr "Описание"
+
+#: nocaptcha.php:229
+msgid "<strong>ERROR</strong>: Internal service error."
+msgstr "<strong>ОШИБКА</strong>: Внутренняя ошибка сервиса."
+
+#: nocaptcha.php:231
+msgid "<strong>ERROR</strong>: Incorrect CAPTCHA code."
+msgstr "<strong>ОШИБКА</strong>: Капча введена неверно."
+
+msgid ""
+"Adds integration with Nocaptcha Mail.Ru - free intelligent CAPTCHA service."
+msgstr ""
+"Добавляет интеграцию с Некапчей Mail.Ru - бесплатным сервисом интеллектуальной капчи."
