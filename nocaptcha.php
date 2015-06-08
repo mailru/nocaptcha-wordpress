@@ -3,7 +3,7 @@
  * Plugin Name: Nocaptcha Mail.Ru
  * Plugin URL: https://nocaptcha.mail.ru
  * Description: Adds integration with Nocaptcha Mail.Ru - free intelligent CAPTCHA service.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Oleg Kovalev
  * Author URI: mailto:man0xff@gmail.com
  * License: MIT
