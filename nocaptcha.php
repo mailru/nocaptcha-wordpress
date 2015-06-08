@@ -184,8 +184,30 @@ function nocaptcha_options() {
             <?php submit_button(); ?>
         </form>
         <h2><?php _e( 'How to add Nocaptcha to arbitrary form', 'nocaptcha' ); ?></h2>
-        <p><?php _e( 'Description', 'nocaptcha' ); ?></p>
-    </div>
+        <?php _e( '
+        <p>Next three functions are used for that:</p>
+        <ul>
+            <li>
+                <span class="code">nocaptcha_get_widget( $tabindex = null )</span>
+                &ndash; returns string with widget\'s HTML code. Optional
+                parameter $tabindex sets tabindex of the CAPTCHA input field.
+            </li>
+            <li>
+                <span class="code">nocaptcha_add_widget( $tabindex = null )</span>
+                &ndash; prints widget\'s HTML code. Optional
+                parameter $tabindex sets tabindex of the CAPTCHA input field.
+            </li>
+            <li>
+                <span class="code">nocaptcha_check_request()</span>
+                &ndash; checks CAPTCHA code entered by the user. 
+                Returns <span class="code">true</span> if check is passed,
+                <span class="code">false</span> if invalid code entered,
+                <span class="code">null</span> if internal error occured.
+                Information about internal error is printed to the PHP error log.
+            </li>
+        </ul>
+        <p>Nocaptcha script will be added to the page\'s footer if there is at least one widget on the page.</p>
+        ', 'nocaptcha' ); ?>
     <?php
 }
 

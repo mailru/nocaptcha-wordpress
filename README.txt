@@ -9,6 +9,8 @@ License URI: http://opensource.org/licenses/MIT
 
 Adds integration with Nocaptcha Mail.Ru service - free intelligent CAPTCHA service.
 
+Добавляет интеграцию с Некапчей Mail.Ru - бесплатным сервисом интеллектуальной капчи.
+
 == Description ==
 
 Nocaptcha is free intelligent CAPTCHA service that can deliver a majority of real
@@ -31,9 +33,13 @@ Visit for more information:
 
 == Installation ==
 
-1. Upload `mailru-nocaptcha` to the `/wp-content/plugins/` directory.
+1. Upload content of repository to the `/wp-content/plugins/mailru-nocaptcha` directory.
 2. Activate the plugin through the **Plugins** menu in WordPress.
 3. Go to **Settings** > **Nocaptcha Mail.Ru** to configure the plugin.
+
+1. Сохраните содержимое репозитория в директорию `/wp-content/plugins/mailru-nocaptcha`.
+2. Активизируйте плагин в меню **Плагины** в WordPress.
+3. Настройте плагин в меню **Настройки** > **Некапча Mail.Ru**.
 
 == Screenshots ==
 
